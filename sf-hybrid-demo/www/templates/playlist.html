@@ -1,0 +1,20 @@
+<ion-view view-title="{{contact.name}}">
+  <ion-content>
+    <ion-nav-buttons side="right">
+      <button class="button" ng-click="openModal()">
+        <i class="icon ion-android-add-circle"></i>
+      </button>
+    </ion-nav-buttons>
+    <ion-content>
+      <div class="card">
+        <div class="item item-divider positive">
+          ToDo name: {{contact.name}}
+        </div>
+        <div class="item item-text-wrap">
+          <label for="" class="info-todo"><strong>시간: </strong>{{contact.time}}</label>
+          <label for="" class="info-todo"><strong>장소: </strong>{{contact.lugar}} </label>
+          <label for="" class="info-todo"><strong>인원: </strong>{{contact.number}}</label>
+        </div>
+      </div>
+  </ion-content>
+</ion-view>

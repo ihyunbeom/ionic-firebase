@@ -1,0 +1,29 @@
+<ion-view view-title="매칭 등록">
+  <ion-content class="padding">
+      <a href="#/tab/chats">
+        <button class="button button-fullwidth button-positive ">
+          <i class="icon2 ion-compose"></i><br>
+        </button>
+       </a>
+    <div class="list">
+        <a class="item" style="position:relative;" ng-repeat="item in messages">
+            <h2>팀명: {{item.team}}</h2>
+            <div class="item-content">
+              <div class="item-text-wrap">
+                <ul>
+                  <li>장소: {{item.lugar}}</li>
+                  <li>내용: {{item.message}}</li>
+                  <li>인원: {{item.num}} vs {{item.num}}</li>
+                  <li>날짜: {{item.year}}. {{item.month}}. {{item.day}}. {{item.mon}}</li>
+                  <li>시간: {{item.timeh}} : {{item.timem}}</li>
+                </ul>
+              </div>
+            </div>
+            <p style="position:absolute;top:20px;right:20px;">
+                <button class="button button-assertive button-small ion ion-close-round" ng-click="remove(item)"></button>
+            </p>
+        </a>
+    </div>
+
+  </ion-content>
+</ion-view>

@@ -1,0 +1,29 @@
+<ion-view view-title="Account">
+  <ion-content class="padding">
+    <form>
+      <div class="list">
+        <label class="item item-input">
+            <span class="input-label">ID</span>
+            <input type="email" placeholder="Email" ng-model="user.email">
+        </label>
+
+        <label class="item item-input">
+            <span class="input-label">PW</span>
+            <input type="password" placeholder="Password" ng-model="user.password">
+        </label>
+
+        <button class="button button-block" ng-click="resister(user)">
+          Resister
+        </button>
+
+        <button class="button button-block" ng-click="login()">
+          Login
+        </button>
+
+        <button class="button button-block" ng-click="logout()">
+          Logout
+        </button>
+      </div>
+    </form>
+  </ion-content>
+</ion-view>

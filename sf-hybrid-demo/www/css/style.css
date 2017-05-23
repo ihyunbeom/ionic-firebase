@@ -1,0 +1,181 @@
+.hat{
+    background: url('../../img/back_hat.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+.slider{
+  height: 30%;
+  text-align: center;
+}
+
+.slides{
+  height: 40%;
+  text-align: center;
+}
+
+.scroll{
+  height: 100%;
+}
+
+.box{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.bar{
+  margin: 0px;
+  border: 0px;
+  background-image: none !important;
+}
+
+.yellow{
+  background-color: #f1c40f;
+}
+
+.green{
+  background-color: #33cd5f;
+}
+
+.red{
+  background-color: #e74c3c;
+}
+
+.row{
+  width: 100%;
+  text-align: center;
+}
+
+.notice{
+  margin-top: 3%;
+  background-color: #f2f2f2;
+}
+.btns{
+  margin-top: 3%;
+}
+
+.sol{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+}
+.button-dark{
+  background: linear-gradient( to bottom, #606060 50%, #232323 100%);
+}
+
+.icon2{
+  font-size: 30px;
+}
+.icon3{
+  font-size: 40px;
+}
+
+.button.button-circle{
+  border-radius: 100%;
+  margin-top: 10%;
+}
+
+.button.button-stable{
+  border-color: #e5e5e5;
+  width: 100%;
+  margin: 1%;
+  text-align: center;
+  background-color: #FFFFFF;
+
+  border-radius: 0%;
+  -webkit-box-shadow: 0 0 5px 1px #adadad;
+  -moz-box-shadow: 0 0 5px 1px #adadad;
+  box-shadow: 0 0 5px 1px #adadad;
+
+
+}
+
+.button.button-select{
+  margin: auto;
+  background-color: #FFFFFF;
+}
+
+.matchlist{
+  background-color: #FFFFFF;
+}
+
+.main{
+  background-color: #FFFFFF;
+}
+
+.pull-right{
+  float: right;
+}
+.button-halfwidth{
+  width: 49%;
+}
+.button-fullwidth{
+  width: 100%;
+}
+
+.reserve h3 {
+  text-align:center;
+  border-bottom:1px solid #eee;
+  line-height:60px;
+}
+
+.reserve span{
+  box-sizing: border-box;
+  display: inline-block;
+  text-align:center;
+  letter-spacing:1px;
+}
+.people{
+  margin:auto auto 10% auto;
+  width:90%;
+  position:relative;
+}
+
+.people span{
+  display:block;
+  font-size:20px;
+}
+
+.date {
+  margin:5% auto 10% auto;
+  width:90%;
+  position:relative;
+}
+
+.button-left, .button-right{
+  position:absolute;
+  top:50%;
+}
+
+.button-left{left:0px;}
+.button-right{right:0px;}
+
+.date span{
+  display:block;
+  font-size:20px;
+}
+.date span.month{
+  font-size:20px;
+}
+
+.time {
+  margin:auto auto 10% auto;
+  width:90%;
+  position:relative;
+}
+
+.time span{
+  display:block;
+  font-size:20px;
+}
+
+.info{
+  margin:auto;
+  position:relative;
+}
+
+.complete{
+  margin-top: 10%;
+  text-align: center;
+}

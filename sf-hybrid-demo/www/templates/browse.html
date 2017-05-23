@@ -1,0 +1,53 @@
+<ion-view view-title="매칭 등록">
+  <ion-content>
+      <form>
+      <div class='reserve' ng-controller='peoplectrl'>
+
+        <div class='date' >
+          <h4>날짜</h4>
+          <span><h2>{{today}} 요일</h2></span>
+          <span class='month'>{{month}}</span>
+          <a class="button button-left button-icon  icon ion-chevron-left" ng-click="decdate()"></a>
+          <a class="button button-right button-icon icon ion-chevron-right" ng-click="incdate()"></a>
+        </div>
+
+        <div class='people'>
+         <h4>인원</h4>
+         <a class="button button-left button-icon  icon ion-chevron-left" ng-click="decpeople()"></a>
+         <span>{{count}} : {{count}}</span>
+         <a class="button button-right button-icon icon ion-chevron-right" ng-click="incpeople()"></a>
+        </div>
+
+        <div class='time' >
+        <h4>경기 시작</h4>
+        <a class="button button-left button-icon  icon ion-chevron-left" ng-click="dectime()"></a>
+        <span>{{time}}</span>
+        <a class="button button-right button-icon icon ion-chevron-right" ng-click="inctime()"></a>
+        </div>
+        <div class='time' >
+        <h4>경기 종료</h4>
+        <a class="button button-left button-icon  icon ion-chevron-left" ng-click="dectime2()"></a>
+        <span>{{time2}}</span>
+        <a class="button button-right button-icon icon ion-chevron-right" ng-click="inctime2()"></a>
+        </div>
+
+        <div class="info">
+          <label class="item item-input">
+            <span class="input-label">비용 :</span>
+            <input type="text" ng-model="match.money">
+          </label>
+
+          <label class="item item-input">
+            <span class="input-label">장소 :</span>
+            <input type="text" ng-model="match.lugar">
+          </label>
+        </div>
+        <div class="complete">
+            <button ng-click='reserve()' class='button button-positive'>Reserve</button>
+        </div>
+
+      </div>
+    </form>
+
+  </ion-content>
+</ion-view>

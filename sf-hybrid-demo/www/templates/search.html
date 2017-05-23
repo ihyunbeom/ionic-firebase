@@ -1,0 +1,101 @@
+
+<ion-view view-title="해트트릭">
+  <ion-content ng-controller="SlideController" class="main">
+
+    <ion-slide-box pager-click="navSlide(index)">
+      <ion-slide>
+        <div class="box green">
+          <img ng-src="{{notice.img}}"/>
+        </div>
+      </ion-slide>
+
+      <ion-slide>
+        <div class="box yellow"></div>
+      </ion-slide>
+
+      <ion-slide>
+        <div class="box red"></h1></div>
+      </ion-slide>
+    </ion-slide-box>
+
+  <div class="btns">
+    <div class="row">
+      <div class="sol">
+        <a href="#/app/playlists">
+          <button class="button button-circle button-midium button-assertive">
+          <i class="icon2 ion-calendar"></i><br>
+        </button>
+        </a>
+      </div>
+
+      <div class="sol">
+        <button class="button button-circle button-midium button-energized ">
+          <i class="icon2 ion-person"></i><br>
+        </button>
+      </div>
+
+      <div class="sol">
+        <button class="button button-circle button-midium button-balanced ">
+          <i class="icon2 ion-home"></i><br>
+        </button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="sol">
+      <h4>매칭 신청</h4>
+      </div>
+      <div class="sol">
+      <h4>용병 신청</h4>
+      </div>
+      <div class="sol">
+      <h4>구장 대관</h4>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="sol "><a href="#/app/browse">
+        <button class="button button-circle button-midium button-positive ">
+          <i class="icon2 ion-compose"></i><br>
+        </button>
+      </a>
+      </div>
+
+      <div class="sol ">
+        <button class="button button-circle button-midium button-royal ">
+          <i class="icon2 ion-person-add"></i><br>
+        </button>
+      </div>
+
+      <div class="sol ">
+        <button class="button button-circle button-midium button-dark ">
+          <i class="icon2 ion-flag"></i><br>
+        </button>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="sol">
+      <h4>매칭 등록</h4>
+      </div>
+      <div class="sol">
+      <h4>용병 등록</h4>
+      </div>
+      <div class="sol">
+      <h4>리그 대회</h4>
+      </div>
+    </div>
+  </div>
+
+  <div class="notice">
+    <div class="row">
+      <button class="button button-stable" ><h4>경기 촬영 문의</h4><h5>디카, 드론 촬영</h5></button>
+      <button class="button button-stable" ><h4>해트트릭 리그</h4><h5>리그영상 보기</h5></button>
+    </div>
+    <div class="row">
+      <button class="button button-stable" ><h4>제휴 서비스</h4><h5>할인 쿠폰 받기</h5></button>
+      <button class="button button-stable" ><h4>이벤트 혜택</h4><h5>각종 할인 이벤트</h5></button>
+    </div>
+  </div>
+
+</ion-content>
+</ion-view>
